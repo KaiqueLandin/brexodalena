@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --nav-bg-color: #121212;
+  --nav-text-color: white;
+  --button-bg-color: #0052CE;
+  --button-text-color: white;
+}
+
+body *{
+  line-height: 100%;
+  font-size: 1.6rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menuLink{
+color: var(--nav-text-color);
+}
+
+nav{
+  color: var(--nav-text-color);
+  background-color: var(--nav-bg-color);
+
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+
+  height: 7vh;
+  padding: 0 2.4rem;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+.botaoMenu{
+  color: var(--button-text-color);
+  background-color: var(--button-bg-color);
+  border-radius: 6px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1.6rem;
+}
+
+main{
+ height: 80vh;
+}
+
+.rodape{
+  color: var(--nav-text-color);
+  background-color:var(--nav-bg-color);
+  height:13vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rodape div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
